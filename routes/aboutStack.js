@@ -8,13 +8,7 @@ export default function AboutNavigator() {
         <>
             <AboutStack.Navigator
                 screenOptions={{
-                    headerStyle: {
-                        backgroundColor: '#f4511e',
-                    },
-                    headerTintColor: '#fff',
-                    headerTitleStyle: {
-                        fontWeight: 'bold',
-                    },
+                    headerShown: false,
                 }}
             >
                 <AboutStack.Screen

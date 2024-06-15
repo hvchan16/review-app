@@ -10,7 +10,7 @@ function MyDrawer() {
 
         <Drawer.Navigator
             screenOptions={{
-                headerShown: false,
+                //headerShown: false,
             }}>
             <Drawer.Screen name="HomeStack" component={HomeNavigator} />
             <Drawer.Screen name="AboutStack" component={AboutNavigator} />
